@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+package-lock.json
+yarn.lock
+
+# Build outputs
+dist/
+build/
+*.log
+
+# YOLO specific
+backend/datasets/*/
+!backend/datasets/.gitkeep
+backend/models/*.pt
+!backend/models/.gitkeep
+backend/results/*/
+!backend/results/.gitkeep
+backend/uploads/*/
+!backend/uploads/.gitkeep
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
